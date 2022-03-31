@@ -56,9 +56,7 @@ const Theme = ({ state }) => {
       on the type of URL we are in. */}
       <Main id={ `_totalResults${data.total}` } className={ `_authorName${data.isAuthor}` }>
         <Switch>
-          <Loading when={data.isFetching} />
-          <ListHome when={data.isHome} />
-          <ListCat when={data.isArchive} />
+          
           <Post when={data.isPostType} />
           <PageError when={data.isError} />
         </Switch>
