@@ -1,12 +1,4 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@frontity/now"
-    }
-  ]
-}
+
 {
     "headers": [
         {
@@ -18,5 +10,11 @@
                 }
             ]
         }
+    ]
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@frontity/now"
+      }
     ]
 }
